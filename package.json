@@ -1,0 +1,24 @@
+{
+  "name": "family-locations",
+  "version": "1.0.0",
+  "description": "This website will display several cities where my friends and family are located, and will include photographs, weather forecasts, and hopefully a local news feed for each location.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync  start --server --files='**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpmechem/family-locations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpmechem/family-locations/issues"
+  },
+  "homepage": "https://github.com/cpmechem/family-locations#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
