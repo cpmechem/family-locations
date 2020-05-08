@@ -1,33 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>News and Weather Tracker for Family Locations</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1>List of Locations Where Friends and Family Live</h1>
-        <p>What follows is a list of locations where I want to keep track of weather forecasts and news.</p>
-            <ul>
-                <li>Charlottesville, VA</li>
-                <li>Alice, TX</li>
-                <li>Brownsville, TX</li>
-                <li>Greenfield, MA</li>
-                <li>St. Louis, MO</li>
-                <li>Baton Rouge, LA</li>
-                <li>San Angelo, TX</li>
-                <li>San Antonio, TX</li>
-                <li>Madison, IN</li>
-                <li>Boston, MA</li>
-                <li>Seattle, WA</li>
-                <li>Bristol, TN</li>
-                <li>Austin, TX</li>
-                <li>Rapid City, SD</li>
-                <li>Philadelphia, PA</li>
-                <li>Bettendorf, IA</li>
-                <li>Goshen, IN</li>
-            </ul>
-</body>
+
+    <!-- Bootstrap v4.4.1 CSS stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+  <body class="mt-5">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">Locations of Family and Friends</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Weather<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Something else?</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 py-4">
+            <div class="shadow card">
+              <img src="images/alice.jpg" class="card-img-top" alt="Jim Wells County courthouse">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Alice</h5>
+                <p class="text-muted mt-0">Texas</p>
+                <p class="card-text">short list of other info</p>
+                <div class="small">
+                  <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 py-4">
+            <div class="shadow card">
+              <img src="images/austin.jpg" class="card-img-top" alt="Congress Street Bridge">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Austin</h5>
+                <p class="text-muted mt-0">Texas</p>
+                <p class="card-text">short list of other info</p>
+                <div class="small">
+                  <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-6 col-md-4 py-4">
+            <div class="shadow card">
+              <img src="images/batonrouge.jpg" class="card-img-top" alt="Baton Rouge bridge">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Baton Rouge</h5>
+                <p class="text-muted mt-0">Louisiana</p>
+                <p class="card-text">short list of other info</p>
+                <div class="small">
+                  <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/boston.jpg" class="card-img-top" alt="Memorial Bridge">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Boston</h5>
+              <p class="text-muted mt-0">Massachusetts</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/bristol.jpg" class="card-img-top" alt="State Street Bristol">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Bristol</h5>
+              <p class="text-muted mt-0">Tennessee</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/charlottesville.jpg" class="card-img-top" alt="coal tower">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Charlottesville</h5>
+              <p class="text-muted mt-0">Virginia</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/goshen.jpg" class="card-img-top" alt="downtown Goshen">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Goshen</h5>
+              <p class="text-muted mt-0">Indiana</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/greenfield.jpg" class="card-img-top" alt="Poet's seat Greenfield">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Greenfield</h5>
+              <p class="text-muted mt-0">Massachusetts</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/madison.jpg" class="card-img-top" alt="Black and white hammer and tools">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Madison</h5>
+              <p class="text-muted mt-0">Indiana</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/philadelphia.jpg" class="card-img-top" alt="Philly skyline">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Philadelphia</h5>
+              <p class="text-muted mt-0">Pennsylvania</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/rapidcity.jpg" class="card-img-top" alt="Rapid City sky">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Rapid City</h5>
+              <p class="text-muted mt-0">South Dakota</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/sanangelo.jpg" class="card-img-top" alt="San Angelo">
+            <div class="card-body">
+              <h5 class="card-title mb-0">San Angelo</h5>
+              <p class="text-muted mt-0">Texas</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/sanantonio.jpg" class="card-img-top" alt="San Antonio skyline">
+            <div class="card-body">
+              <h5 class="card-title mb-0">San Antonio</h5>
+              <p class="text-muted mt-0">Texas</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+            <img src="images/seattle.jpg" class="card-img-top" alt="Seattle Skyline">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Seattle</h5>
+              <p class="text-muted mt-0">Washington</p>
+              <p class="card-text">short list of other info</p>
+              <div class="small">
+                <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 py-4">
+          <div class="shadow card">
+              <img src="images/stlouis.jpg" class="card-img-top" alt="arch">
+              <div class="card-body">
+                <h5 class="card-title mb-0">St. Louis</h5>
+                <p class="text-muted mt-0">Missouri</p>
+                <p class="card-text">short list of other info</p>
+                <div class="small">
+                  <a href="#" class="btn btn-primary mr-2">Read more</a> <a href="#">View site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

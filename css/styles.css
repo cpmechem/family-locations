@@ -1,6 +1,4 @@
 body {
     font-family: "helvetica neue",Arial, Helvetica, sans-serif;
-    background: rgb(231, 116, 193)
-    ;
-
+    background: linear-gradient(90deg, #d8bfff,#fdb0ce);
 }
