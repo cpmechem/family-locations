@@ -1,11 +1,11 @@
 const LOCATIONS = [
   {
-    "city": "Charlottesville",
-    "population": 48117,
-    "state": "Virginia",
-    "mayor": "Nikuyah Walker (I)",
-    "governor": "Ralph Northam (D)",
-    "statebird": "Northern Cardinal",
+    city: "Charlottesville",
+    population: 48117,
+    state: "Virginia",
+    mayor: "Nikuyah Walker (I)",
+    governor: "Ralph Northam (D)",
+    statebird: "Northern Cardinal",
   },
   {
     city: "Greenfield",
@@ -97,7 +97,7 @@ const LOCATIONS = [
   },
   {
     city: "Madison",
-    population: ,
+    population: 11879,
     state: "Indiana",
     mayor: "Bob Courtney (R)",
     governor: "Eric Holcomb (R)",

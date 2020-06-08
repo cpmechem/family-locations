@@ -1,8 +1,17 @@
 main {
   font-family: "helvetica neue", Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: #d6d5ff;
+}
+body {
   background: linear-gradient(45deg, #a583f5, #ff9bc1);
 }
 
-.card-body {
-  background-color: #a3ceff;
+.table {
+  background-color: #d6d5ff;
+}
+
+.thead {
+  background-color: #a7a6ff;
 }

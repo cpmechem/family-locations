@@ -1,6 +1,12 @@
 function renderLocations(location_list) {
-  location_list.sort(function (record1, record2) {
-    return record2.population - record1.population;
+  location_list.sort(function (a, b) {
+    if (a.city < b.city) {
+      return -1;
+    }
+    if (a.city > b.city) {
+      return 1;
+    }
+    return 0;
   });
 
   var tbody = document.querySelector(".locations tbody");
